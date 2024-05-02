@@ -54,7 +54,6 @@ else {
   ProcessAndAppendCsvWithHash -sourceFile $sourceFile -targetFile $targetFile
   # Rename the source file to the target file
   Write-Host "Renaming $sourceFile to $targetFile..." 
-  Write-Host "testtttt"
   #Remove Source
   Remove-Item -Path $sourceFile
 }
